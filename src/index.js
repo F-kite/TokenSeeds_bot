@@ -5,8 +5,6 @@ require("dotenv").config();
 
 // Замените на ваш токен
 const TELEGRAM_TOKEN = process.env.TELEGRAM_TOKEN;
-const HUGGINGFACE_API_KEY = process.env.HUGGINGFACE_API_KEY;
-const MS_24B_I_2501 = process.env.MS_24B_I_2501;
 
 const bot = new TelegramBot(TELEGRAM_TOKEN, { polling: true });
 
